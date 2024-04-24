@@ -80,8 +80,8 @@
 					},
 					"defaultConfiguration": "development",
 					"options": {
-						"port": 4200,
-						"publicHost": "http://localhost:4200",
+						"port": 4201,
+						"publicHost": "http://localhost:4201",
 						"extraWebpackConfig": "projects/shell/webpack.config.js"
 					}
 				},
@@ -188,8 +188,8 @@
 					},
 					"defaultConfiguration": "development",
 					"options": {
-						"port": 4201,
-						"publicHost": "http://localhost:4201",
+						"port": 4200,
+						"publicHost": "http://localhost:4200",
 						"extraWebpackConfig": "projects/mfe1/webpack.config.js"
 					}
 				},

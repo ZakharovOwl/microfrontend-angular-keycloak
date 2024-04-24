@@ -14,3 +14,20 @@ loadManifest('assets/mf.manifest.json') .catch((err) => console.error('Ошиб�
 //   .catch((err) => console.error('Error loading remote entries', err))
 //   .then(() => import('./bootstrap'))
 //   .catch((err) => console.error(err));
+
+// import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+// import { AppModule } from './app/app.module';
+//
+// platformBrowserDynamic()
+//   .bootstrapModule(AppModule)
+//   .catch((err) => console.error(err));
+
+
+// Promise.all([
+//   platformBrowserDynamic()
+//     .bootstrapModule(AppModule),
+//   loadManifest('assets/mf.manifest.json')
+// ])
+//   .catch((err) => console.error('Error loading remote entries', err))
+  // .then(() => import('./bootstrap'))
+  // .catch((err) => console.error(err));
